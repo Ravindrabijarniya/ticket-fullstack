@@ -4,6 +4,37 @@ A full-stack event ticketing platform built using **Spring Boot** (backend) and 
 
 ---
 
+
+## 🧩 Project Overview
+
+Let's break down the main components of our event ticketing system.
+
+Our system needs to handle event creation, ticket sales, sales monitoring, and ticket validation — the complete event management lifecycle.
+
+The platform will serve three types of users:
+
+1. Event _organizers_
+2. Event _attendees_
+3. Event _staff_
+
+Each user type has their own needs and way of using the system.
+
+---
+## 🛠️ Build Plan
+
+Here's the plan for this build. It's likely to change as we learn more about the domain, but here's today's understanding:
+
+1. **System Design** – Analyze the domain, user personas, UI design, and domain modelling
+2. **Design REST API** and the application's architecture
+3. **Project Setup**, including security
+4. **Domain Implementation**
+5. **Event Creation & Management**
+6. **Ticket Sale & Purchase**
+7. **Ticket Validation**
+8. **Sales Reporting**
+
+---
+
 ## 🚀 Tech Stack
 
 - **Frontend:** React, Vite, TypeScript, TailwindCSS
@@ -59,26 +90,6 @@ Ticket_Full_Stack/
 ├── assets/ → Screenshots used in README
 └── .gitignore
 
-
-
-## 🧪 How to Run Locally
-
-## ▶ Backend
-
-bash
-cd backend
-./mvnw spring-boot:run
-Runs on http://localhost:8080
-
-💻 Frontend
-
-bash
-Copy
-Edit
-cd frontend
-npm install
-npm run dev
-Runs on http://localhost:5173
 
 
 
