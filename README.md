@@ -53,4 +53,40 @@ A full-stack event ticketing platform built using **Spring Boot** (backend) and 
 
 ## 📦 Project Structure
 
+Ticket_Full_Stack/
+├── backend/ → Spring Boot API
+├── frontend/ → React Vite frontend
+├── assets/ → Screenshots used in README
+└── .gitignore
+
+
+
+## 🧪 How to Run Locally
+
+## ▶ Backend
+
+bash
+cd backend
+./mvnw spring-boot:run
+Runs on http://localhost:8080
+
+💻 Frontend
+
+bash
+Copy
+Edit
+cd frontend
+npm install
+npm run dev
+Runs on http://localhost:5173
+
+
+
+🙌 Author
+Ravindra Bijarniya
+GitHub: @Ravindrabijarniya
+
+⭐ Show Your Support
+If you like this project, please ⭐️ it on GitHub!
+
 
