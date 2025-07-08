@@ -1,0 +1,6 @@
+# Ignore backend build files
+backend/target/
+
+# Ignore frontend node_modules and dist
+frontend/node_modules/
+frontend/dist/
